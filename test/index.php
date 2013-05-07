@@ -6,5 +6,11 @@
 
 	print_r($string);
 
-
+	public function test()
+	{
+		// Printing a message
+		echo "In the test function";
+	}
+	
+	&test();
 ?>
